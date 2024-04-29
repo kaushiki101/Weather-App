@@ -1,11 +1,10 @@
-import React from "react"
-import './App.css';
-import Tempapp from "./component/Tempapp";
-
+import React from "react";
+import "./App.css";
+import Tempapp from "./component/WeatherApp/Tempapp";
 
 function App() {
   return (
-    <div >
+    <div>
       <Tempapp />
     </div>
   );
